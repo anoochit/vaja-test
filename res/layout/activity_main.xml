@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/txtWord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:gravity="center_vertical|top"
+        android:text="Remember to use your own class name and to indicate your application package at the top of the file. If you are using Eclipse, you should not need to add all of the import statements manually, as the IDE will insert some of them automatically. Run your app in the Android emulator and hear it in action." >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/buttonSpeak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtWord"
+        android:text="Speak" />
+
+</RelativeLayout>
